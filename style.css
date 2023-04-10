@@ -1,0 +1,160 @@
+/* Resetear estilos */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del header */
+header {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.logo img {
+	width: 150px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a {
+	padding: 1em;
+	color: #000;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+/* Estilos del main */
+.banner {
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 4em;
+	margin-bottom: 0.5em;
+}
+
+.banner p {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.banner button {
+	background-color: red;
+	color: #fff;
+	border: none;
+	padding: 1em 2em;
+	font-size: 1.2em;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+	background-color: #fff;
+	color: red;
+}
+
+.presentacion {
+	padding: 3em;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 2em;
+}
+
+.presentacion h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.presentacion p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.productos {
+	padding: 3em;
+	background-color: #f9f9f9;
+	margin-top: 2em;
+}
+
+.productos h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.productos ul {
+	list-style: none;
+	margin-top: 1em;
+}
+
+.productos li {
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+.servicios {
+	padding: 3em;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 2em;
+}
+
+.servicios h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.servicios p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.quienes-somos {
+	padding: 3em;
+	background-color: #f9f9f9;
+	margin-top: 2em;
+}
+
+.quienes-somos h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.quienes-somos p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+/* Estilos del footer */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 2em;
+	display: flex;
