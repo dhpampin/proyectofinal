@@ -155,8 +155,82 @@ nav ul li a:hover {
 
 /* Estilos del footer */
 footer {
-	background-color: #000;
-	color: #fff;
-	padding: 2em;
+	background-color: black;
+	padding: 50px 0;
+	}
+	
+	.container {
+	max-width: 1000px;
+	margin: 0 auto;
 	display: flex;
-}
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	.row-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	.flex-column-form {
+	flex-basis: 50%;
+	margin-right: 50px;
+	}
+	
+	form {
+	flex-basis: 50%;
+	}
+	
+	.form-group {
+	margin-bottom: 20px;
+	}
+	
+	input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	}
+	
+	button {
+	background-color: #23BF40;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+	}
+	
+	.redes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	list-style: none;
+	padding: 0;
+	}
+	
+	.redes li {
+	margin-right: 20px;
+	}
+	
+	.redes li:last-child {
+	margin-right: 0;
+	}
+	
+	.redes img {
+	width: 20px;
+	height: 20px;
+	}
+	
+	.contacto {
+	margin-top: 20px;
+	font-size: 16px;
+	text-align: center;
+	color: #555;
+	}

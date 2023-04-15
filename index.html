@@ -53,39 +53,44 @@
 	</main>
 	<footer>
 		<div class="container">
-			<div class="row-flex">
-				<div class="flex-column-form">
-					<h3>Hace tu reserva: </h3>
+		  <div class="row-flex">
+			<div class="flex-column-form">
+			  <h3>Hacer una reserva:</h3>
+			  <form>
+				<div class="form-group">
+				  <label for="nombre">Nombre:</label>
+				  <input type="text" id="nombre" name="nombre" placeholder="Escribí tu nombre" required>
 				</div>
-				<!--formulario de reserva-->
-				<form class="media-centered">
-					<div class="form-group">
-						<p>Por favor dejanos tu numero para poder contactarte</p>
-
-						<input type="name" class="form-control"
-						placeholder="Escribí tu nombre">
-					</div>
-
-					<div>
-						<input type="number" class="form-control" placeholder="Escribí tu nro de telefono">
-					</div>
-
-					<div>
-						<input type="name" class="form-control" placeholder="Escribí tu consulta">
-					</div>
-				  
-					<div>
-					   <button type="submit" class="btn btn-success">Enviar</button>
-					</div>
-				</form>
+				<div class="form-group">
+				  <label for="telefono">Teléfono:</label>
+				  <input type="tel" id="telefono" name="telefono" placeholder="Escribí tu número de teléfono" required>
+				</div>
+				<div class="form-group">
+				  <label for="consulta">Consulta:</label>
+				  <textarea id="consulta" name="consulta" placeholder="Escribí tu consulta"></textarea>
+				</div>
+				<div class="form-group">
+				  <button type="submit">Enviar</button>
+				</div>
+			  </form>
 			</div>
-		<ul class="redes">
-			<li><a href="#"><img src="assets/facebook.png" alt="Facebook" width="20" height="20"></a></li>
-			<li><a href="#"><img src="assets/twitter.jpg" alt="Twitter" width="20" height="20"></a></li>
-			<li><a href="#"><img src="assets/instagram.jpg" alt="Instagram" width="20" height="20"></a></li>
-			<li><a href="https://wa.me/123456789"><img src="assets/whatsapp.png" alt="Whatsapp" width="20" height="20"></a></li>
-		</ul>
-		<h3 class="contacto">Contacto: info@tiendademascotas.com | Teléfono: (123) 456-7890</h3>
-	</footer>
+			<div class="redes-container">
+			  <h3>Seguinos en:</h3>
+			  <ul class="redes">
+				<li><a href="#"><img src="assets/facebook.png" alt="Facebook"></a></li>
+				<li><a href="#"><img src="assets/twitter.jpg" alt="Twitter"></a></li>
+				<li><a href="#"><img src="assets/instagram.jpg" alt="Instagram"></a></li>
+				<li><a href="https://wa.me/123456789"><img src="assets/whatsapp.png" alt="Whatsapp"></a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="contacto-container">
+			<p>Contacto: info@tiendademascotas.com | Teléfono: (123) 456-7890</p>
+			<p>Dirección: Av. Pet Friendly 1234, Ciudad Autónoma de Buenos Aires</p>
+			<a href="https://goo.gl/maps/XXXXXXXXXX" target="_blank">Ver en Google Maps</a>
+		  </div>
+		</div>
+	  </footer>
+	  
 </body>
 </html>
