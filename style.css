@@ -139,12 +139,12 @@ nav ul li a:hover {
 .quienes-somos {
 	padding: 3em;
 	background-color: #f9f9f9;
-	margin-top: 2em;
+	margin-top: 2px;
 }
 
 .quienes-somos h2 {
 	font-size: 2em;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 .quienes-somos p {
