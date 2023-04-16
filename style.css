@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 /* Estilos del main */
 .banner {
-	background-image: url('/assets/banner.jpg');
+	background-image: url(assets/banner.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 500px;
