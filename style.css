@@ -101,23 +101,23 @@ nav ul li a:hover {
 	line-height: 1.5;
 }
 
-.productos {
+.productos1 {
 	padding: 3em;
 	background-color: #f9f9f9;
 	margin-top: 2em;
 }
 
-.productos h2 {
+.productos1 h2 {
 	font-size: 2em;
 	margin-bottom: 1em;
 }
 
-.productos ul {
+.productos1 ul {
 	list-style: none;
 	margin-top: 1em;
 }
 
-.productos li {
+.productos1 li {
 	font-size: 1.2em;
 	margin-bottom: 0.5em;
 }
